@@ -1,0 +1,363 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Title */
+.Judul h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-color: #e2e2e2;
+    margin: 0;
+}
+
+/* Logo Section */
+.logotb {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logotb img {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+/* School Section */
+.sekolah {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sekolah h2 {
+    color: #555;
+    font-size: 3rem;
+}
+
+.sekolah a {
+    font-size: 2.5rem;
+}
+
+/* Link Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styling */
+form {
+    width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="range"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Footer Text */
+h1:last-of-type {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-color: #e2e2e2;
+    margin: 20px 0 0;
+}
+
+/* Button Styling */
+.btn {
+    background-color: #0056b3;
+    width: 120px;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn a {
+    font-size: 20px;
+    color: white;
+
+}
+
+form #fname {
+    font-size: 20px;
+}
+
+form #fn {
+    font-size: 20px
+}
+
+form #ln {
+    font-size: 20px;
+}
+
+form #lname {
+    font-size: 20px;
+}
+
+form p {
+    font-size: 20px;
+}
+
+.form2 p {
+    font-size: 20px;
+}
+
+.form2 a {
+    font-size: 20px;
+}
+
+.radio label {
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.radio1 label {
+    margin-top: 3px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.radioo {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+.radio2 {
+    width: 25px; /* Adjust the width */
+    height: 25px; /* Adjust the height */
+    transform: scale(1.8); /* Scale up the checkbox */
+    margin-right: 10px; /* Add some space between checkbox and label */
+}
+
+.radio1 {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin-left: 5px;
+}
+
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #000000;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #000000;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+    text-decoration: none;
+   }
+   
+   button:hover {
+    color: #ffffff;
+   }
+
+   button {
+    width: 200px;  /* Lebar tombol */
+    height: 50px;  /* Tinggi tombol */
+    font-size: 20px;  /* Ukuran teks di dalam tombol */
+    padding: 5px 10px;  /* Jarak antara teks dan tepi tombol */
+ }
+
+.tag {
+    margin: 0;
+    line-height: 100%;
+    margin-right: 80%;
+}
+
+/* Responsive Design */
+@media screen and (max-width:1024px) {
+    form {
+        width: 90%;
+        height: 1620px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .lu {
+        font-size: 50px;
+    }
+    button {
+        width: 400px;  /* Lebar tombol */
+        height: 100px;  /* Tinggi tombol */
+        font-size: 70px;  /* Ukuran teks di dalam tombol */
+        padding: 5px 10px;  /* Jarak antara teks dan tepi tombol */
+     }
+
+    .form2 {
+        height: 100%;
+    }
+
+    .form2 p {
+        font-size: 350%;
+    }
+
+    .form2 a {
+        font-size: 100px;
+    }
+
+    .tag {
+        font-size: 24px;
+        white-space: nowrap;
+    }
+
+    form p {
+        font-size: 20px;
+    }
+
+    .radio label {
+        margin-top: 3px;
+        font-size: 300%;
+        margin-right: 20px;
+    }
+    
+    .radio1 label {
+        margin-top: 3px;
+        font-size: 50px;
+        white-space: nowrap;
+        margin-left: 30px;
+    }
+    
+    .radioo {
+        width: 5rem;
+        height: 5rem;
+    }
+    
+    .radio {
+        display: flex;
+        align-items: center;
+        height: 7rem;
+    }
+    
+    .radio2 {
+        width: 25px; /* Adjust the width */
+        height: 25px; /* Adjust the height */
+        transform: scale(5); /* Scale up the checkbox */
+        margin-right: 10px; /* Add some space between checkbox and label */
+    }
+    
+    .radio1 {
+        display: flex;
+        align-items: center;
+        height: 6rem;
+        margin-left: 30px;
+    }
+
+    .sekolah p {
+        font-size: 3rem;
+    }
+
+    form #fname {
+        font-size: 50px;
+    }
+
+    form #lname {
+        font-size: 50px;
+    }
+
+    form #fn {
+        font-size: 50px
+    }
+    
+    form #ln {
+        font-size: 50px;
+    }
+    
+
+    .label {
+        font-size: 30px;
+    }
+
+    .btn {
+        background-color: #0056b3;
+        width: 180px;
+        padding: 15px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+    }
+
+  
+    
+}
